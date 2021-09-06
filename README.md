@@ -13,9 +13,11 @@ Then it'll show you the statistical result of the data based on your choices.
 You can even see the raw data if you want.
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+- bikeshare_2.py
+- data files
+    - chicago.csv
+    - new_york_city.csv
+    - washington.csv
 
 ### Credits
 It's a project for the Udacity course.
