@@ -189,8 +189,8 @@ def user_stats(df):
 def display_raw_data(df):
     """Display raw data if the user wants"""
     for i in range(0, len(df), 5):
-        user_input = input('Would you like to view (5 more) individual trip data? (Type "no" if you don\'t want): ')
-        if user_input.lower() == 'no':
+        show_raw_data = input('Would you like to view (5 more) individual trip data? (Type "no" if you don\'t want): ')
+        if show_raw_data.lower() == 'no':
             break
         print(df[i:i+5])
 
