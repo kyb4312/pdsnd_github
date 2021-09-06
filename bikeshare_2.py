@@ -1,6 +1,5 @@
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -191,8 +190,8 @@ def display_raw_data(df):
 
     # get user input for whether the user wants to see the raw data
     for i in range(0, len(df), 5):
-        user_input = input('Would you like to view (5 more) individual trip data? (Type "no" if you don\'t want): ')
-        if user_input.lower() == 'no':
+        show_raw_data = input('Would you like to view (5 more) individual trip data? (Type "no" if you don\'t want): ')
+        if show_raw_data.lower() == 'no':
             break
         print(df[i:i+5])
 
